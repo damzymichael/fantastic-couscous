@@ -1,0 +1,45 @@
+// @mixin link-style {
+//   display: inline-block;
+//   padding: 5px;
+//   text-decoration: none;
+// }
+
+// @mixin button-style {
+//   border: none;
+//   display: inline-block;
+//   padding: 10px;
+//   border-radius: 25px;
+// }
+
+@mixin centering {
+  width: 93%;
+  margin: 0 auto;
+}
+@mixin linkstyle {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 25px;
+}
+@mixin WWO {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: $oCol3;
+}
+@mixin iconstbl {
+  color: #2aabd7;
+  background: #aaddef;
+}
+@mixin iconstpk {
+  color: #f278a1;
+  background: #fbd2e0;
+}
+@mixin iconstamb {
+  color: #ffc107;
+  background: #fff3cd;
+}
+@mixin iconstgr {
+  background-color: #6deaea;
+  background: #b7efef;
+}

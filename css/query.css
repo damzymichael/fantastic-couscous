@@ -1,0 +1,45 @@
+.menu {
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+.menu span {
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.menu span:nth-child(even) {
+  width: 60%;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+  #header article div h1 {
+    font-size: 27px;
+  }
+  #header article div p {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+ 
+}
+
+@media screen and (max-width: 700px) {
+  #header nav ul {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 500px) {
+}
